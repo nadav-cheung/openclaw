@@ -1,0 +1,45 @@
+{
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Bash(npm view *)",
+      "Bash(npm search *)",
+      "mcp__a2asearch__list_agents",
+      "mcp__agent-utils__tool_uuid_generate",
+      "mcp__mcp-server-time__get_current_time",
+      "mcp__filesystem__list_directory",
+      "mcp__memory__read_graph",
+      "mcp__mockhero__list_templates",
+      "mcp__nixos__nix_versions",
+      "mcp__ontomics__list_concepts",
+      "mcp__tavily__tavily_search",
+      "mcp__scraper__extract_metadata",
+      "mcp__fetch__fetch",
+      "mcp__mcp-server-docker__list_containers",
+      "mcp__open-code-review__scan_directory",
+      "mcp__sequential-thinking__sequentialthinking",
+      "mcp__text-editor__get_text_file_contents",
+      "mcp__wcgw__ReadFiles",
+      "mcp__context7__query-docs",
+      "mcp__context7__resolve-library-id",
+      "mcp__agent-utils__tool_datetime_convert",
+      "mcp__agent-utils__tool_hash_generate",
+      "mcp__a2asearch__search_agents"
+    ]
+  },
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true,
+    "feature-dev@claude-plugins-official": true,
+    "claude-md-management@claude-plugins-official": true,
+    "ralph-loop@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true,
+    "playwright@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true,
+    "pr-review-toolkit@claude-plugins-official": true,
+    "code-simplifier@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "claude-code-setup@claude-plugins-official": true
+  }
+}
