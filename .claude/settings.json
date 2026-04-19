@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Bash(mvn compile:*)",
+      "Bash(mvn test:*)",
+      "Bash(mvn package:*)",
+      "Bash(mvn clean:*)",
+      "Bash(mvn -q compile:*)",
+      "Bash(./mvnw test:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(docker-compose down:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker exec dispatcher-redis-dev-local redis-cli:*)",
+      "Bash(docker exec -it dispatcher-redis-dev-local redis-cli:*)",
+      "Bash(java:*)",
+      "Bash(jps -l)",
+      "Bash(lsof:*)",
+      "Bash(lsof -ti:8080)",
+      "Bash(lsof -ti:8081)",
+      "Bash(curl:*)",
+      "Bash(grep:*)",
+      "Skill(update-config)",
+      "Skill(systematic-debugging)",
+      "Skill(ws-debug)",
+      "Skill(spring-boot-best-practices)"
+    ],
+    "deny": ["Bash(rm -rf *)", "Bash(git push --force *)"]
+  }
+}
